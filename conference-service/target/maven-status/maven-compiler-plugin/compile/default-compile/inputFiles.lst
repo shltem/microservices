@@ -1,0 +1,11 @@
+/home/shlomo/MicroServiceProjact/microservices/conference-service/src/main/java/com/example/API/conference/ConferenceService.java
+/home/shlomo/MicroServiceProjact/microservices/conference-service/src/main/java/com/example/API/participant/ParticipantController.java
+/home/shlomo/MicroServiceProjact/microservices/conference-service/src/main/java/com/example/API/participant/ParticipantService.java
+/home/shlomo/MicroServiceProjact/microservices/conference-service/src/main/java/com/example/API/conference/Conference.java
+/home/shlomo/MicroServiceProjact/microservices/conference-service/src/main/java/com/example/API/participant/ParticipantRepository.java
+/home/shlomo/MicroServiceProjact/microservices/conference-service/src/main/java/com/example/API/conference/ConferenceConfig.java
+/home/shlomo/MicroServiceProjact/microservices/conference-service/src/main/java/com/example/API/conference/ConferenceController.java
+/home/shlomo/MicroServiceProjact/microservices/conference-service/src/main/java/com/example/API/conference/ConferenceRepository.java
+/home/shlomo/MicroServiceProjact/microservices/conference-service/src/main/java/com/example/API/ConferenceServiceApplication.java
+/home/shlomo/MicroServiceProjact/microservices/conference-service/src/main/java/com/example/API/participant/Participant.java
+/home/shlomo/MicroServiceProjact/microservices/conference-service/src/main/java/com/example/API/participant/ParticipantConfig.java

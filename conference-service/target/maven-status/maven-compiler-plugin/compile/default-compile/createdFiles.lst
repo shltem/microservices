@@ -1,0 +1,11 @@
+com/example/API/conference/Conference.class
+com/example/API/participant/ParticipantService.class
+com/example/API/conference/ConferenceRepository.class
+com/example/API/participant/ParticipantConfig.class
+com/example/API/conference/ConferenceController.class
+com/example/API/ConferenceServiceApplication.class
+com/example/API/participant/Participant.class
+com/example/API/conference/ConferenceService.class
+com/example/API/participant/ParticipantRepository.class
+com/example/API/participant/ParticipantController.class
+com/example/API/conference/ConferenceConfig.class

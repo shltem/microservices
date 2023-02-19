@@ -1,0 +1,7 @@
+/home/shlomo/MicroServiceProjact/microservices/schedule-service/src/main/java/com/example/scheduleservice/ScheduleServiceApplication.java
+/home/shlomo/MicroServiceProjact/microservices/schedule-service/src/main/java/com/example/scheduleservice/scheduleservice/Conference.java
+/home/shlomo/MicroServiceProjact/microservices/schedule-service/src/main/java/com/example/scheduleservice/scheduleservice/Schedule.java
+/home/shlomo/MicroServiceProjact/microservices/schedule-service/src/main/java/com/example/scheduleservice/scheduleservice/SchedulerService.java
+/home/shlomo/MicroServiceProjact/microservices/schedule-service/src/main/java/com/example/scheduleservice/config/WebClientConfig.java
+/home/shlomo/MicroServiceProjact/microservices/schedule-service/src/main/java/com/example/scheduleservice/scheduleservice/Participant.java
+/home/shlomo/MicroServiceProjact/microservices/schedule-service/src/main/java/com/example/scheduleservice/scheduleservice/ScheduleController.java

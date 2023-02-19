@@ -1,0 +1,56 @@
+version: '3'
+services:
+
+  conference-service-db:
+    image: postgres
+    environment:
+      POSTGRES_HOST: localhost
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: students
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: myPassword
+      
+    user: root
+  init_conference:
+        image: postgres
+        command: bash -c "psql -h db -U postgres -c 'CREATE DATABASE conference;'"
+        depends_on:
+          - conference-service-db
+
+
+  feedback-service-db:
+    image: postgres
+    environment:
+      POSTGRES_HOST: localhost
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: feedback
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: myPassword
+    user: root
+  init_feedback:
+    image: postgres
+    command: bash -c "psql -h db -U postgres -c 'CREATE DATABASE feedback;'"
+    depends_on:
+      - feedback-service-db
+  conference-service:
+    build: ./conference-service
+    ports:
+      - "8080:8080"
+  feedback-service:
+    build: ./feedback-sevice
+    ports:
+      - "8082:8082"
+  schedule-service:
+    build: ./schedule-service
+    ports:
+      - "8081:8081"
+
+networks:
+  postgres:
+    driver: bridge
+  spring:
+    driver: bridge
+
+volumes:
+  postgres:
+  pgadmin:
